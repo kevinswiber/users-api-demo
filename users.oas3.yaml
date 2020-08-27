@@ -25,7 +25,7 @@ paths:
         '200':
           description: A list of users.
           content:
-           application/json:
+           application/json; charset=utf-8:
               schema:
                 $ref: '#/components/schemas/ListUsersResponse'
   '/users/{userId}':
@@ -48,7 +48,7 @@ paths:
         '200':
           description: A single user.
           content:
-            application/json:
+            application/json; charset=utf-8:
               schema:
                 $ref: '#/components/schemas/User'
 components:
