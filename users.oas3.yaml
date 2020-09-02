@@ -17,7 +17,7 @@ paths:
   /users:
     get:
       summary: List Users
-      description: Returns a list of users.
+      description: Returns a full list of users.
       operationId: listUsers
       tags:
         - users
