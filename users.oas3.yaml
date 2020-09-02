@@ -95,9 +95,6 @@ components:
       title: ListUsersResponse
       type: object
       properties:
-        page:
-          type: integer
-          format: int32
         per_page:
           type: integer
           format: int32
