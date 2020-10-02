@@ -25,7 +25,7 @@ paths:
         '200':
           description: A list of users.
           content:
-           application/vnd.siren+json:
+           application/json:
               schema:
                 $ref: '#/components/schemas/ListUsersResponse'
   '/users/{userId}':
