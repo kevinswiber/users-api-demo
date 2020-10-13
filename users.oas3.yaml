@@ -14,7 +14,7 @@ tags:
   - name: users
     description: User management operations.
 paths:
-  /users:
+  /user:
     get:
       summary: List Users
       description: Returns a full list of users.
