@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   version: 1.0.0
   title: Users API [kevin]
-  description: This is a sample OpenAPI definition for a Users API.
+  description: This is a sample OpenAPI definition.
   contact:
     name: Kevin Swiber
     email: kswiber@gmail.com
